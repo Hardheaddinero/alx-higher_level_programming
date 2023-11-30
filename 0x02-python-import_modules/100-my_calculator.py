@@ -19,14 +19,15 @@ if __name__ == "__main__":
     if operator == '+':
         result = add(a, b)
     elif operator == '-':
-	result = sub(a, b)
+        result = sub(a, b)
     elif operator == '*':
-	result = mul(a, b)
+        result = mul(a, b)
     elif operator == '/':
-	result = div(a, b)
-    else:
-	print("Unknown operator. Available operators: +, -, * and /")
-        sys.exit(1)
+        result = div(a, b)
+	    else:
+	        print("Unknown operator. Available operators: +, -, * and /")
+                sys.exit(1)
 
     # Print the result
-    print("{} {} {} = {}".format(a, operator, b, result))#!/usr/bin/python3
+    print("{} {} {} = {}".format(a, operator, b, result))
+
